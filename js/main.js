@@ -9,7 +9,10 @@ loginBtn.addEventListener('click',function(){
        window.location.href = "banking.html"
     }
     else{
-        alert("email or password incorrect!!")
+        // alert("email or password incorrect!!")
+
+        const errorMsg = document.getElementById("error-massage")
+        errorMsg.style.display = "block"
     }
 
 })
